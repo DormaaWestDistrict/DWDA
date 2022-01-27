@@ -1,0 +1,471 @@
+ <style>html,body{
+ width:100%
+ height:100%;
+ margin:0px;
+ padding:0px;
+ overflow-x:hidden;
+ }
+ </style>
+
+/*HEADER CODES START HERE*/
+
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	
+	
+	
+    
+}
+body{
+	
+	background-color:#66fcf1 !important;
+	
+	
+}
+
+
+
+
+
+#about-us-image{
+	height:90px;
+	width:90px;
+    background-color:white!important;
+	
+	/*border:border:2px solid white;*/
+}
+
+	
+/* ==== Navbar ====*/
+
+a{
+	color:#66fcf1;
+	
+}
+
+.navbar{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 0.2rem;
+	background-color:#101088 !important;
+	color:#66fcf1;
+	padding: 20px 0;
+	height:200px;
+	width:100%;
+	
+	
+}
+.navbar-brand{
+	font-weight: 800;
+	color:#66fcf1;
+	
+}
+
+.nav-link{
+	color:white;
+}
+/*
+.navbar-dark .navbar-nav .nav-link{
+	color:;
+	padding-left: 20px;
+}*/
+/*
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link.visited,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #ff5f08;
+	text-decoration: none;
+}*/
+
+
+.navbar-custom{
+	background-color:;
+}
+.carousel-item{
+	height: 100vh;
+	height: 800px;
+	background: no-repeat center center scroll;
+	-webkit-background-size:cover;
+	background-size: cover;
+
+
+
+}
+/* ===================================
+ Section: Featured !! SUNYANI CSS
+==================================== */
+
+#featured {
+  background:#fcfcfc;
+  position: relative;
+  margin:0;
+  padding:0;
+  font-size: 100px;
+  font-weight:800 ;
+  color: #fff;
+  line-height: 1.6em;
+}
+/* ===================================
+ Section: Featured !! SUNYANI CSS ENDS
+==================================== */
+
+/*HERE THE ROOTS HAVE TO BE DIFFERENT FOR EITHER THE IMAGES OR TEXTS   */
+/*:root {
+  --marquee-width: 100vw;/*HERE INCREASES THE WIDTH AND HEIGHT OF THE MARQUEE  */
+  --marquee-height:1000vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 4;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  background-color: rgb(89,150,255);
+  color: rgb(89,150,255);
+  overflow: hidden;
+  position: relative;
+}
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: 1rem;/*HAS TO DO WITH THE GRADIENT EDGES...WHEN IT COMES TO IMAGES REDUCE IT  */
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, #eee 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, #eee 0%, transparent 100%);
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+/*PAUSES WHEN MOUSES IS POINTED TO IT*/
+ .marquee-content:hover {
+  animation-play-state: paused;
+} 
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+/*HAS TO DO WITH IMAGES ONLY DIMENSIONS  
+.marquee-content li img {
+  width: 100%;       
+  height: 100%; */
+  border: 5px solid #eee;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 12px; }
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 100vh;
+    --marquee-elements-displayed: infinite;
+  }
+  .marquee:before, .marquee:after { width: 5rem; }
+}*/
+}
+	
+
+/*LATEST UPDATES CODES START HERE*/
+.marquee{
+	
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+  color: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*HERE THE ROOTS HAVE TO BE DIFFERENT FOR EITHER THE IMAGES OR TEXTS   */
+:root {
+  --marquee-width: 100vw;/*HERE INCREASES THE WIDTH AND HEIGHT OF THE MARQUEE  */
+  --marquee-height: 5vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 4;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  background-color: #101088;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: 1rem;/*HAS TO DO WITH THE GRADIENT EDGES...WHEN IT COMES TO IMAGES REDUCE IT  */
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, #eee 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, #eee 0%, transparent 100%);
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+/*PAUSES WHEN MOUSES IS POINTED TO IT*/
+ .marquee-content:hover {
+  animation-play-state: paused;
+} 
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+/*HAS TO DO WITH IMAGES ONLY DIMENSIONS  */
+.marquee-content li img {
+  width: 100%;       
+  /* height: 100%; */
+  border: 2px solid #eee;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 12px; }
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 100vh;
+    --marquee-elements-displayed: infinite;
+  }
+  .marquee:before, .marquee:after { width: 5rem; }
+}
+
+/*DCE AND DIRECTORS CODES */    
+	.container{
+	margin-top: 15%;
+}
+
+.img-text{
+	width: 95%;
+	height:none ;
+	display: block;
+	text-align: ;
+	text-align: ;
+	padding: 2% 2%;
+	
+	background: #101088;
+	color: #fff;
+	border-radius: 15px;
+}
+.img-text h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.img-text p{
+	font-size: 20px;
+	font-weight:800;
+}
+
+.single-box{
+	position: relative;
+	margin-bottom: 30px;
+	
+}
+
+.img-area{
+	position: aboslute;
+	width:500px;
+	height: 500px;
+	border:5px solid #fff;
+	overflow:hidden;
+	top:15px;
+	left: 125px;
+	border-radius: 50%;
+
+}
+
+
+.img-area img{
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+
+.one-box{
+	position: relative;
+	margin-bottom: 30px;
+	
+}
+
+.pic-area{
+	position: aboslute;
+	width:500px;
+	height: 500px;
+	
+	overflow:hidden;
+	top:15px;
+	left: 125px;
+	border-radius: 50%;
+
+}
+
+.pic-area img{
+	width: 100%;
+	height: 100%;
+
+}
+
+/*COAT  OF ARMS LOGOS ENDS */
+/*DCE AND DIRECTORS CODES   ENDS  */
+
+
+/*    foooter*/
+/*STARTING FOOTER*/
+.full-footer{
+	background-color: #101088;
+	
+}
+
+.top-footer p{
+	color: white;
+}
+
+.top-footer a{
+	color: white;
+	font-weight: 600;
+}
+
+.top-footer h3,h2{
+	color: white;
+	
+}
+
+.bottom-footer{
+	background-color:black;
+}
+
+.bottom-footer p{
+	color: white;
+}
+
+
+/*   OVERALL FIXED        */
+/*fixed section    */
+.gap100{
+	padding-top: 70px 0px;
+	
+	
+}
+
+/*features section by FIXED   */
+
+#features{
+	background:url("hen2.png");
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:200px;
+	background-color:#eee;
+	
+}
+
+/*   OVERALL FIXED   ENDS     */
+
+
+
+/*CSS ANIMATIONS &  KEYFRAMES codes*/
+.minister{
+	animation-name:blue-to-black;
+	animation-duration:4s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+
+/*animation: red-to-black  linear 0s 2 alternate-reverse;*/
+}
+@keyframes blue-to-black{
+	0%{
+		background:blue;
+		transform:(10px,10px);
+	}
+
+50%{
+	background:black;
+	transform:translate(10px,10px);
+}
+100%{
+	background:black;
+	transform:translate(20px,20px);
+}
+}
+/*CSS ANIMATIONS &  KEYFRAMES codes ENDS HERE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
