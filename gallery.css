@@ -1,0 +1,84 @@
+/*
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+.gala {
+  font-family: 'Montserrat', sans-serif;
+  background:" " ;
+  color: ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+/*HERE THE ROOTS HAVE TO BE DIFFERENT FOR EITHER THE IMAGES OR TEXTS   */
+:root {
+  --marquee-width: 80vw;/*HERE INCREASES THE WIDTH AND HEIGHT OF THE MARQUEE  */
+  --marquee-height:20vh;        /* 80 20 for TEXTS ONLY /*
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 4;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 1s);
+}
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  background-color:#101088;
+  color:#eee ;*/
+  background:("") ;
+  overflow: hidden;
+  position: relative;
+}
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: 2rem;/*HAS TO DO WITH THE GRADIENT EDGES...WHEN IT COMES TO IMAGES REDUCE IT  */
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, *#eee 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, *#eee 0%, transparent 100%);/*#eee*/
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+/*PAUSES WHEN MOUSES IS POINTED TO IT*/
+ .marquee-content:hover {
+  animation-play-state: paused;
+} 
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+/*HAS TO DO WITH IMAGES ONLY DIMENSIONS  */
+.marquee-content li img {
+  width:100%;       
+  height: 100%; 
+  border: 2px solid white;*/
+}
