@@ -1,0 +1,132 @@
+
+body{
+	
+	background:url("");
+	 background-size: cover;
+    background-position: center;
+	background-color:#66fcf1;
+}
+/*features section by FIXED   */
+
+#features{
+	background:url("hen2.png");
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:200px;
+	background-color:#eee;
+	
+}
+
+/*   OVERALL FIXED   ENDS     */
+
+#depart{
+	
+	color:red;
+	font-size:20px;
+	text-align:left;
+}
+
+
+code{
+	display:block;
+	color:#101088;
+	background:white;
+	padding:5px;
+	font-size:30px;
+	
+}
+
+
+
+.border-box{
+	background:#eee;
+	margin:0 0 20px;
+	padding:1000;
+	width:500px;
+	font-size:40px;
+
+}
+
+#box-1{
+    border:double 5px black;
+}
+
+
+#box-1{
+    border:double 5px black;
+}
+
+#box-2{
+    border:double 5px black;
+}
+#box-3{
+    border:double 5px black;
+}
+#box-4{
+    border:double 5px black;
+}
+#box-5{
+    border:double 5px black;
+}
+
+#box-6{
+    border:double 5px black;
+}
+
+#box-7{
+    border:double 5px black;
+}
+
+#box-8{
+    border:double 5px black;
+}
+
+#box-9{
+    border:double 5px black;
+}
+
+#box-10{
+    border:double 5px black;
+}
+
+#box-11{
+    border:double 5px black;
+}
+
+#box-12{
+    border:double 5px black;
+}
+
+#box-13{
+    border:double 5px black;
+}
+
+#box-14{
+    border:double 5px black;
+}
+
+#box-15{
+    border:double 5px black;
+}
+#box-16{
+    border:double 5px black;
+}
+
+#box-17{
+    border:double 5px black;
+}
+
+@media (man-width:600px){
+	.dpt{
+		padding:15px;
+	}
+	.dpt{
+		font-size:55px;
+	}
+}
+*/
+
+/*@media (max-width: 550px) {
+  .dpt {
+    flex-direction: column;
+  }

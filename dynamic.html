@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>header</title>
+  <link href="dynamic.css" rel="stylesheet">
+
+<script type="text/javascript"> 
+function gallery(e){
+var img_preview =document.getElementById('img-preview')
+;
+img_preview.src =e.firstElementChild.src;
+}
+</script> 
+ </head>
+ <body>
+ 
+ <!--GALLERY CODES STARTS HERE-->
+  <!-- /*DYNAMIC GALLERY CODE STARTS HERE*/-->
+  <h1>IMAGES GALLERY</h1>
+ <div class="mainn">
+  <div class="gallery-box">
+  <div class="img-preview-box">
+  <img src="1.jpg" id="img-preview"/>
+  </div>
+  <div class="img-thumbnails">
+
+  <div class="img-thumbnail"id="img1"onclick="gallery(img1);">
+    <img src="1.jpg"/>
+       </div>
+   
+   <div class="img-thumbnail"id="img2"onclick="gallery(img2);">
+    <img src="2.jpg"/>
+       </div>
+    
+	<div class="img-thumbnail"id="img3"onclick="gallery(img3);">
+    <img src="3.jpg"/>
+       </div>
+	
+	<div class="img-thumbnail"id="img4"onclick="gallery(img4);">
+    <img src="4.jpg"/>
+       </div>
+	<div class="img-thumbnail"id="img5"onclick="gallery(img5);">
+    <img src="5.jpg"/>
+       </div>
+	   
+	<div class="img-thumbnail"id="img6"onclick="gallery(img6);">
+    <img src="6.jpg"/>
+       </div> 
+ </div>  
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- /*DYNAMIC GALLERY CODE ENDS HERE*/-->
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ </body>
