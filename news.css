@@ -1,0 +1,210 @@
+
+#about-us-image{
+	height:90px;
+	width:90px;
+}
+
+/*COLORS
+background:0b0c10
+
+
+secondary background:1f2833
+
+gray
+primary:66ff1;
+secondary:
+45a29
+
+*/
+
+body{
+	font-family:'Montserrat',sans-serif;
+	background-color:#66fcf1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+	font-weight:700;
+	color:#66fcf1;
+}
+
+h3{
+	font-size:1.5rem;
+}
+/* will apply these to my main header                 */
+a{
+	color:#66fcf1;
+}
+
+
+	
+}
+
+/*  
+img{
+	filter:grayscale(50%)brightness(0.8)
+
+
+*/
+
+img.rounded-circle{
+	filter:none;
+	border:2px solid #66fcf1;
+	
+}
+
+/*header       */
+.navbar{
+	background-color:#101088;
+	color:#66fcf1 !important;
+}
+/* will apply these to my main header                 */
+
+.navbar brand{
+	
+	
+}
+
+/* HERO SECTION */
+.hero{
+	background-color:#1f2833;
+}
+
+.hero-post{
+	position:relative;
+}
+.hero-post-badges{
+	position:absolute;
+	top:10px;
+	right:10px;
+	
+}
+
+.hero-post-badges>a{
+	display:block;
+	background-color:#0b0c10;
+	color:#66fcf1;
+	font-size:0.9rem;
+	
+}
+
+hero-post-content{
+	position:absolute;
+	bottom:;
+	margin:10px;
+	color:#66fcf1;
+	
+	
+}
+
+/*
+hero-post-content img{
+	border:2px solid #66fcf1;
+}*/
+
+
+/* Main block post          */
+
+.blog-posts{
+	background-color:#0b0c10;
+	color:#c5c6c7;
+}
+
+.blog-post{
+	background-color:#1f2833;
+	
+	
+}
+.blog-post img{
+	width:100%;
+	height:100%;
+	/*object-fit:cover;*/
+	display:cover;
+	
+	
+}
+
+
+.blog-post p {
+	font-size:0.9rem;
+	
+}
+
+.blog-post .col-sm-8{
+	border-left:3px solid #66fcf1;
+	
+}
+
+
+
+
+/*ASIDE*/
+
+.social-links{
+	color:#66fcf1;
+	color:#0b0c10;
+	font-size:1.5rem;
+}
+.secondary{
+	background-color:#1f2833;
+	color:#66fcf1;
+}
+
+.aside-heading{
+	border-left:3px solid #66fcf1;
+	
+	
+}
+
+.author p{
+	font-size:0.9rem;
+}
+
+author-social-links a{
+	margin-left:0.8rem;
+}
+
+.badges{
+	margin-top:1rem;
+}
+
+.badges>a{
+	display:block;
+	margin-left:0.5rem;
+	margin:0.2rem;
+	padding:0.1rem;
+	background-color:#66fcf1;
+	color:#0b0c10;
+}
+
+
+.bad>a{
+	display:;
+	margin-left:0.5rem;
+	margin:0.2rem;
+	padding:0.1rem;
+	background-color:#66fcf1;
+	color:#0b0c10;
+}
+/*               */
+
+.footer{
+	background-color:#1f2833;
+	color:#c5c6c7;
+	
+}
+
+
+/* detail page */        
+.lead{
+	color:black;
+}
+/*
+.cote{
+	height:90px;
+	width:90px;
+}*/
