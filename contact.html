@@ -66,15 +66,72 @@
   <hr>
   
    <a class="btn btn-primary btn-lg"
-   href="" role="button">We will reply you as soon as possible..Thanks.</a> 
+   href="" role="button">We will reply you as soon as possible..Thanks.</a><hr>
+    <script>
+    /**
+     * Returns a random number between min (inclusive) and max (exclusive)
+     */
+    function getRandomArbitrary(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    /**
+     * Returns a random integer between min (inclusive) and max (inclusive)
+     * Using Math.round() will give you a non-uniform distribution!
+     */
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var randomMessages = [
+	
+	'KINDLY CONTACT THE DEVELOPER ON 0245877577.',
+  
+	'MY EMAIL IS marforobert2014@gmail.com',
+	
+    'KINDLY WHATSAPP THE DEVELOPER ON 0245877577.'
+	
+	
+	
+		
+    ]
+    window.setInterval(function () {
+        var randomNum = getRandomInt(0, 3);
+        $('.welcome-message').html(randomMessages[randomNum]);
+    }, 2000);
+
+</script>
+
+
+<div class="container">
+<p class="welcome-message text-center" style="color:#000000;">
+KINDLY CONTACT THE DEVELOPER ON 0245877577.
+	</p>
+</div>
+
+
+
+
+<hr>
+
+
+
+
+   
  
 </div>
-		
-		
-		
-		
+	
+
+
 		
 		</p>
+		
+
+
+
+
+
+
+
 		
 	<div class="container">	
  <div class="messageform"> 

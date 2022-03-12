@@ -178,12 +178,64 @@ background-size:cover;
 <img src="umoro.png" alt="" class="img-responsive img-thumbnail"/>
 <center><code>STATISTICS</code></center>
 <center><code>HEAD:Mr. Umoro Kofi</code></center>
+											
+
 </div>
 
 <div class="col-md-3">
 <img src="kra1.jpg" alt="" class="img-responsive img-thumbnail"/>
 <center><code>MANAGEMENT INFORMATION SYSTEM[I.T]</code></center>
 <center><code>HEAD:Mr.Marfo Robert</code></center>
+												 <script>
+    /**
+     * Returns a random number between min (inclusive) and max (exclusive)
+     */
+    function getRandomArbitrary(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    /**
+     * Returns a random integer between min (inclusive) and max (inclusive)
+     * Using Math.round() will give you a non-uniform distribution!
+     */
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var randomMessages = [
+	
+	'HEAD:Mr. Marfo Robert',
+  
+	'MANAGEMENT INFORMATION SYSTEM[I.T]',
+	
+	'HEAD:Mr. Marfo Robert'
+	
+ 
+	
+	
+	
+		
+    ]
+    window.setInterval(function () {
+        var randomNum = getRandomInt(0, 3);
+        $('.welcome-message').html(randomMessages[randomNum]);
+    }, 2000);
+
+</script>
+
+ <div class="container">
+<p class="welcome-message text-center" style="color:#000000;">
+MANAGEMENT INFORMATION SYSTEM[I.T]
+	</p>
+</div>	
+
+
+
+
+
+
+
+
+
 
 </div>
 
