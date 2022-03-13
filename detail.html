@@ -382,7 +382,7 @@ In attendance were Mr. Emmanuel kyeremeh (SHEP COORDINATOR, DistrictEducationDir
 <br>
 <!-- ANYTIME END COPYING HERE FOR THE DETAILS SECTION             -->
 
-<!--MARQUEE CODES STARTS HERE</li>-->
+<!--MARQUEE CODES STARTS HERE</li>
       <div class="gala">
  <div class="marquee">
  <ul class="marquee-content">
@@ -517,21 +517,47 @@ In attendance were Mr. Emmanuel kyeremeh (SHEP COORDINATOR, DistrictEducationDir
 </div>
 
 <br><br>
-<div class="w-100 text-center credits">
-<p><a href="">Copyright &copy;2022 Dormaa West 
-District Assembly,Nkrankwanta [Bono Region Ghana].All Rights Reserved.</a> 
-</p>
 
-<!-- NEWS TICKER SCRIPTS  FOOTER STARTS -->
+
+				<!--AUTO UPDATE FOOTER STARTS HERE
+
+              <div class="container">
+			  <div class="text">
+				<p>&copy<span id="currentYear">2020</span>
+				Dormaa West District Assembly,
+				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p>
+			  </div>
+			  </div>
+<!--AUTO UPDATE FOOTER ENDS HERE-->
+			  
+<!--AUTO UPDATE YEAR SCRIPTS STARTS HERE--> 
+<script>
+const yearSpan=document.querySelector('#currentYear');
+const currentYear=new Date();
+yearSpan.innerText=currentYear.getFullYear();
+</script>
+<!--AUTO UPDATE YEAR SCRIPTS ENDS HERE--> 				
+				
+<br><br><br>
+
 <!--FAVOURITE MARQUEE  -->
+  <hr>
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12">
             <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
-                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;</span></div>
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center"></span></div>
                 <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-				<span class="dot"></span> 
-				<a href="" style="color:red;">Copyright &copy;2022 Dormaa West District Assembly,Nkrankwanta [Bono Region Ghana].All Rights Reserved.</a> 
+				 
+			 <a style="color:black;" <div class="text">
+				<p>&copy<span id="currentYear">2020</span>
+				Dormaa West District Assembly,
+				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p>
+			  </div>
+			  </a>
+			  
+				
+				
 				
 
 				</marquee>
@@ -539,7 +565,13 @@ District Assembly,Nkrankwanta [Bono Region Ghana].All Rights Reserved.</a>
         </div>
     </div>
 </div>
-</div>
+  <hr>
+<br><br>
+
+
+
+
+
 
 </div>
 </footer>

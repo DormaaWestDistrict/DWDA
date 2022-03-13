@@ -29,7 +29,7 @@
  </head>
  <body oncontextmenu="return false;">
 <br><br> 
-<div class="container">
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -75,7 +75,7 @@
   </div>
 </nav>
  
- </div>
+ 
  
  
  
@@ -83,13 +83,100 @@
  
  
    <br>
+<!-- CLOCK CODES ENDS HERE -->
+<!--FAVOURITE MARQUEE  -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;D.W.D.A</span></div>
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+				
 
+
+                <span class="dot"></span> 
+				<a href="">WELCOME TO THE OFFICIAL WEBSITE OF DORMAA WEST DISTRICT ASSEMBLY. 
+				WE HOPE THAT YOU WILL ENJOY OUR ONLINE EXPERIENCE.
+				PLEASE CONTACT US IF YOU REQUIRE ANY ASSISTANCE IN LOCATING US OR USING OUR SERVICES.</a>				
+				
+                <span class="dot"></span>
+                <a href="">KINDLY CONTACT THE DISTRICT CO-ORD. DIRECTOR ON 0352291438 OR 0209116176 .</a>
+				
+				
+				<span class="dot"></span>
+                <a href="">KINDLY CONTACT THE DISTRICT CO-ORD. DIRECTOR ON 0209116176 .</a>
+				
+				
+				
+				<span class="dot"></span>
+                <a href="">OUR OFFICIAL EMAIL IS dormaawestdistrict@gmail.com</a>
+
+
+                
+				</marquee>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src= ></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" ></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js  " ></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+  <!-- NEWS TICKER SCRIPTS ENDS -->
+  <script>
+    /**
+     * Returns a random number between min (inclusive) and max (exclusive)
+     */
+    function getRandomArbitrary(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    /**
+     * Returns a random integer between min (inclusive) and max (inclusive)
+     * Using Math.round() will give you a non-uniform distribution!
+     */
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var randomMessages = [
+	
+	'KINDLY CONTACT THE DISTRICT CO-ORD. DIRECTOR ON 0352291438.',
+  
+	'OUR OFFICIAL EMAIL IS dormaawestdistrict@gmail.com',
+	
+    'KINDLY CONTACT THE DISTRICT CO-ORD. DIRECTOR ON 0209116176.'
+	
+	
+	
+		
+    ]
+    window.setInterval(function () {
+        var randomNum = getRandomInt(0, 3);
+        $('.welcome-message').html(randomMessages[randomNum]);
+    }, 2000);
+
+</script>
+
+
+
+
+
+ <div class="container">
+    <section id="featured">
+
+    <p class="welcome-message text-center" style="color:#000000;">
+	OUR OFFICIAL EMAIL IS dormaawestdistrict@gmail.com
+	</p>
+     
+	  </section>
+	   </div>
 
   
  
 		
 		<br><br>
-<div class="container">
+
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<!--<ol class="carousel-indicators">
@@ -147,14 +234,48 @@
 
 <!-- NEWS TICKER SCRIPTS  FOOTER STARTS -->
 <!--FAVOURITE MARQUEE  -->
+<br><br>
+
+
+				<!--AUTO UPDATE FOOTER STARTS HERE 
+
+              <div class="container">
+			  <div class="text">
+				<p>&copy<span id="currentYear">2020</span>
+				Dormaa West District Assembly,
+				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p>
+			  </div>
+			  </div>
+<!--AUTO UPDATE FOOTER ENDS HERE-->
+			  
+<!--AUTO UPDATE YEAR SCRIPTS STARTS HERE--> 
+<script>
+const yearSpan=document.querySelector('#currentYear');
+const currentYear=new Date();
+yearSpan.innerText=currentYear.getFullYear();
+</script>
+<!--AUTO UPDATE YEAR SCRIPTS ENDS HERE--> 				
+				
+<br><br><br>
+
+<!--FAVOURITE MARQUEE  -->
+  <hr>
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12">
             <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
-                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;</span></div>
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center"></span></div>
                 <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-				<span class="dot"></span> 
-				<a href="">Copyright &copy;2022 Dormaa West District Assembly,Nkrankwanta [Bono Region Ghana].All Rights Reserved.</a> 
+				 
+			 <a style="color:black;" <div class="text">
+				<p>&copy<span id="currentYear">2020</span>
+				Dormaa West District Assembly,
+				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p>
+			  </div>
+			  </a>
+			  
+				
+				
 				
 
 				</marquee>
@@ -162,6 +283,10 @@
         </div>
     </div>
 </div>
+
+
+
+
 <br><br>
 <script src= ></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" ></script>
