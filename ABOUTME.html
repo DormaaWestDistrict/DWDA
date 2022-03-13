@@ -366,21 +366,60 @@
 	  <!-- Grid container -->
 	<!-- NEWS TICKER SCRIPTS  FOOTER STARTS -->
 <!--FAVOURITE MARQUEE  -->
+
+<!--AUTO UPDATE FOOTER STARTS HERE -->
+<hr class="bg-white" style="height:2px;">
+              <div class="container">
+			  <div class="text">
+				<p>&copy<span id="currentYear">2020</span>
+				Dormaa West District Assembly,
+				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p>
+			  </div>
+			  </div>
+<!--AUTO UPDATE FOOTER ENDS HERE-->
+			  
+<!--AUTO UPDATE YEAR SCRIPTS STARTS HERE--> 
+<script>
+const yearSpan=document.querySelector('#currentYear');
+const currentYear=new Date();
+yearSpan.innerText=currentYear.getFullYear();
+</script>
+<!--AUTO UPDATE YEAR SCRIPTS ENDS HERE--> 				
+				
+<br><br><br>
+
+<!--FAVOURITE MARQUEE  
+  <hr>
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12">
             <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
                 <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center"></span></div>
                 <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-				<span class="dot"></span> 
-				<a href="">Copyright &copy;2021 Dormaa West District Assembly,Nkrankwanta [Bono Region Ghana].All Rights Reserved.</a> 
+				 
+			 <a style="color:black;" <div class="text">
+				<p>&copy<span id="currentYear"> </span><br>
+				All Rights Reserved.</p>
+			  </div>
+			  </a>
+			  
+				
+				
 				
 
 				</marquee>
             </div>
         </div>
     </div>
-</div>
+</div>-->
+
+
+
+
+
+
+
+
 				
 				</div>
 			</div>
