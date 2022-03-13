@@ -88,11 +88,62 @@ background-size:cover;
 <div class="jumbotron">
 		<h1 class="display-4"><center>DORMAA WEST DISTRICT ASSEMBLY STAFF</center><h1>
 
+
+ </div>
+
+
+
 </div>
 
 
 <div class="row">
+<script>
+    /**
+     * Returns a random number between min (inclusive) and max (exclusive)
+     */
+    function getRandomArbitrary(min, max) {
+        return Math.random() * (max - min) + min;
+    }
 
+    /**
+     * Returns a random integer between min (inclusive) and max (inclusive)
+     * Using Math.round() will give you a non-uniform distribution!
+     */
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var randomMessages = [
+	
+	'KINDLY CONTACT THE DISTRICT CO-ORD. DIRECTOR ON 0352291438.',
+  
+	'OUR OFFICIAL EMAIL IS dormaawestdistrict@gmail.com',
+	
+    'KINDLY CONTACT THE DISTRICT CO-ORD. DIRECTOR ON 0209116176.'
+	
+	
+	
+		
+    ]
+    window.setInterval(function () {
+        var randomNum = getRandomInt(0, 3);
+        $('.welcome-message').html(randomMessages[randomNum]);
+    }, 2000);
+
+</script>
+
+
+
+
+
+ <div class="container">
+    <section id="featured">
+
+    <p class="welcome-message text-center" style="color:#000000;">
+	OUR OFFICIAL EMAIL IS dormaawestdistrict@gmail.com
+	</p>
+     
+	  </section>
+	   </div>
 <div class="col-md-3">
 <img src="u.jpg" alt="" class="img-responsive img-thumbnail"/></center>
 <center><code>ADMINISTRATION</code></center>
@@ -523,6 +574,17 @@ div id="box-1" class="border-box">
 
 <!-- NEWS TICKER SCRIPTS  FOOTER STARTS -->
 <!--FAVOURITE MARQUEE  -->
+<!--AUTO UPDATE FOOTER STARTS HERE--> 
+
+              <div class="container">
+			   <hr class="bg-white" style="height:2px;">
+			  <div class="text">
+				<center><p>&copy<span id="currentYear">2020</span>
+				Dormaa West District Assembly,
+				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p></center>
+			  </div>
+			  </div>
+<!--AUTO UPDATE FOOTER ENDS HERE-->
 
 <!--AUTO UPDATE FOOTER STARTS HERE 
 
@@ -555,7 +617,7 @@ yearSpan.innerText=currentYear.getFullYear();
                 <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
 				 
 			 <a style="color:black;" <div class="text">
-				<p>&copy<span id="currentYear">2020</span>
+				<p>&copy<span id="currentYear"></span>
 				Dormaa West District Assembly,
 				Nkrankwanta [Bono Region Ghana].All Rights Reserved.</p>
 			  </div>
