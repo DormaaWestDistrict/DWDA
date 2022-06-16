@@ -9,10 +9,10 @@ const youtube = document.querySelector('.youtube')
 const pageUrl=location.href
 const message ='This is an awesome news,kindly take 5 minutes of your time to read it'
 
-const whatsappApi ='https://wa.me/?text=$(pageUrl) .$(message)';
+const whatsappApi ='https://wa.me/?text=${pageUrl}.${message}';
 const facebookApi =  ;
-const twitterApi ='https://twitter.com/intent/tweet?text=$(pageUrl). $(message)'
-const telegramApi ='https://t.me/share/url?url=$(pageUrl)&text=&(message)';
+const twitterApi ='https://twitter.com/intent/tweet?text=${pageUrl}.${message}';
+const telegramApi ='https://t.me/share/url?url=${pageUrl}&text=${message}';
 const youtubeApi =  ;
 
 
