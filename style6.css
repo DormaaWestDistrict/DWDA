@@ -22,8 +22,11 @@
 }
 body{
 	
-	background-color:#66fcf1 !important;
-	
+	/*background-color:#66fcf1 !important;*/
+background-image:url("painted1.jpg");
+
+background-repeat:repeat;
+background-position:center center;
 	
 }
 
@@ -366,7 +369,8 @@ a{
 /*    foooter*/
 /*STARTING FOOTER*/
 .full-footer{
-	background-color: #101088;
+	/*background-color: #101088;*/
+		background-color:gray;
 	
 }
 
